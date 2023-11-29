@@ -10,11 +10,11 @@ const skills = [
   },
   {
     skill: "JavaScript",
-    level: "advanced",
+    level: "intermediate",
     color: "#EFD81D",
   },
   {
-    skill: "Web Design",
+    skill: "PHP+WP",
     level: "advanced",
     color: "#C3DCAF",
   },
@@ -25,12 +25,12 @@ const skills = [
   },
   {
     skill: "React",
-    level: "advanced",
+    level: "beginner",
     color: "#60DAFB",
   },
   {
-    skill: "Svelte",
-    level: "beginner",
+    skill: "Docker",
+    level: "intermediate",
     color: "#FF3B00",
   },
 ];
@@ -51,17 +51,17 @@ function App() {
 }
 
 function Avatar() {
-  return <img className="avatar" src="aaron.jpeg" alt="Jonas Schmedtmann" />;
+  return <img className="avatar" src="aaron.jpeg" alt="Benedek Ladanyi" />;
 }
 
 function Intro() {
   return (
     <div>
-      <h1>Jonas Schmedtmann</h1>
+      <h1>Benedek Ladanyi</h1>
       <p>
-        Full-stack web developer and teacher at Udemy. When not coding or
-        preparing a course, I like to play board games, to cook (and eat), or to
-        just enjoy the Portuguese sun at the beach.
+        Full-stack web developer at international company. When I not coding or
+        improve my skills, I like to play sports or to just enjoy the Spanish
+        sun at the beach or at the bank of the ocean.
       </p>
     </div>
   );
